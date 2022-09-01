@@ -13,7 +13,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template from the shopify editor.",
+            "text": "Give customers details about the banner image(s) or content on the template from the shopify editor. then it is changed from the vs code",
             "text_style": "body"
           }
         },
