@@ -5,12 +5,23 @@
       "blocks": {
         "heading": {
           "type": "heading",
+<<<<<<< HEAD
           "settings": { "heading": "Image banner", "heading_size": "h2" }
+=======
+          "settings": {
+            "heading": "Image banner from h1",
+            "heading_size": "h1"
+          }
+
         },
         "text": {
           "type": "text",
           "settings": {
+<<<<<<< HEAD
             "text": "This change is done from github and synced to the live site",
+=======
+            "text": "Give customers details about the banner image(s) or content on the template index.",
+>>>>>>> 3bedeb1f33dde864d6de12df16c3cae969954c50
             "text_style": "body"
           }
         },
@@ -18,7 +29,11 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
+<<<<<<< HEAD
             "button_link_1": "shopify://collections/all",
+=======
+            "button_link_1": "shopify:\/\/collections\/all",
+>>>>>>> 3bedeb1f33dde864d6de12df16c3cae969954c50
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -26,7 +41,15 @@
           }
         }
       },
+<<<<<<< HEAD
       "block_order": ["heading", "text", "button"],
+=======
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+>>>>>>> 3bedeb1f33dde864d6de12df16c3cae969954c50
       "settings": {
         "image": "{{ shop.brand.cover_image }}",
         "image_overlay_opacity": 40,
@@ -47,18 +70,33 @@
         "heading": {
           "type": "heading",
           "settings": {
+<<<<<<< HEAD
             "heading": "<p>Talk about your brand</p>",
+=======
+            "heading": "<p>Talk about your brand<\/p>",
+>>>>>>> 3bedeb1f33dde864d6de12df16c3cae969954c50
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
+<<<<<<< HEAD
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         }
       },
       "block_order": ["heading", "text"],
+=======
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+>>>>>>> 3bedeb1f33dde864d6de12df16c3cae969954c50
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -100,6 +138,7 @@
       "blocks": {
         "collection-0": {
           "type": "collection",
+<<<<<<< HEAD
           "settings": { "collection": "" }
         },
         "product": {
@@ -112,6 +151,31 @@
         }
       },
       "block_order": ["collection-0", "product", "collection-1"],
+=======
+          "settings": {
+            "collection": ""
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "product",
+        "collection-1"
+      ],
+>>>>>>> 3bedeb1f33dde864d6de12df16c3cae969954c50
       "settings": {
         "heading": "Multimedia collage",
         "heading_size": "h2",
@@ -127,7 +191,11 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
+<<<<<<< HEAD
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+=======
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+>>>>>>> 3bedeb1f33dde864d6de12df16c3cae969954c50
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -142,7 +210,11 @@
           "type": "column",
           "settings": {
             "title": "Column",
+<<<<<<< HEAD
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+=======
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+>>>>>>> 3bedeb1f33dde864d6de12df16c3cae969954c50
             "link_label": "",
             "link": ""
           }
@@ -151,7 +223,11 @@
           "type": "column",
           "settings": {
             "title": "Column",
+<<<<<<< HEAD
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+=======
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+>>>>>>> 3bedeb1f33dde864d6de12df16c3cae969954c50
             "link_label": "",
             "link": ""
           }
@@ -160,13 +236,25 @@
           "type": "column",
           "settings": {
             "title": "Column",
+<<<<<<< HEAD
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+=======
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+>>>>>>> 3bedeb1f33dde864d6de12df16c3cae969954c50
             "link_label": "",
             "link": ""
           }
         }
       },
+<<<<<<< HEAD
       "block_order": ["column1", "column2", "column3"],
+=======
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+>>>>>>> 3bedeb1f33dde864d6de12df16c3cae969954c50
       "settings": {
         "title": "",
         "heading_size": "h1",
