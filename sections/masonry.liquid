@@ -9,42 +9,45 @@
 
 {% schema %}
 {
-   "name": "masonry-grid",
-   "tag": "section",
-  "class": "masonry-grid",
- "settings": [
-   {
-     "type": "text",
-     "id": "masonry-header",
-     "label": "Header for your masonry",
-     "default": "label for your masonry"
-   },
-   {
-      "type": "range",
-      "id": "font_size",
-      "min": 12,
-      "max": 24,
-      "step": 1,
-      "unit": "px",
-      "label": "Font size",
-      "default": 16
-    },
+  "name": "Mason-grid",
+  "tag": "section",
+  "class": "mason-grid",
+  "max_blocks": 5,
+  "settings": [
     {
-      "type": "textarea",
-      "id": "home_welcome_message",
-      "label": "Welcome message",
-      "default": "Welcome to my shop!"
-    },
-   "presets": [
-      {
-         "name":"add masonry grid",
-         "settings":[
-         "title": "masonry grid"
-         ]
-         
-      }
-   ]
-    
- ]
+      "type": "mason-text",
+      "id": "mason-title",
+      "label": "mason-text"
+    }
+  ],
+  "blocks": [
+     {
+       "name": "mason-block",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         }
+       ]
+     }
+   ],
+  "presets": [
+    {
+      "name": "Slideshow",
+      "settings": {
+        "title": "Slideshow"
+      },
+      "blocks": [
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        }
+      ]
+    }
+  ]
 }
 {% endschema %}
