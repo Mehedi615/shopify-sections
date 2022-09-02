@@ -16,8 +16,8 @@
   "settings": [
     {
       "type": "text",
-      "id": "title",
-      "label": "Slideshow"
+      "id": "mason-title",
+      "label": "mason-slideshow"
     }
   ],
   "blocks": [
@@ -28,23 +28,26 @@
          {
            "type": "image_picker",
            "id": "image",
-           "label": "Image"
+           "label": "mason-Image"
          }
        ]
      }
    ],
   "presets": [
     {
-      "name": "Slideshow",
+      "name": "mason-Slideshow",
       "settings": {
-        "title": "Slideshow"
+        "title": "mason-slideshow"
       },
       "blocks": [
         {
-          "type": "slide"
+          "type": "slide-1"
         },
         {
-          "type": "slide"
+          "type": "slide-2"
+        },
+        {
+          "type": "slide-3"
         }
       ]
     }
