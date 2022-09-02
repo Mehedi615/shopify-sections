@@ -1,0 +1,41 @@
+<div
+  class="grid"
+  data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'
+>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  
+</div>
+
+{% schema %}
+{
+   "name": "masonry-grid",
+   "tag": "section",
+  "class": "masonry-grid",
+ "settings": [
+   {
+     "type": "text",
+     "id": "masonry-header",
+     "label": "Header for your masonry",
+     "default": "label for your masonry"
+   },
+   {
+      "type": "range",
+      "id": "font_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Font size",
+      "default": 16
+    },
+    {
+      "type": "textarea",
+      "id": "home_welcome_message",
+      "label": "Welcome message",
+      "default": "Welcome to my shop!"
+    }
+    
+ ]
+}
+{% endschema %}
